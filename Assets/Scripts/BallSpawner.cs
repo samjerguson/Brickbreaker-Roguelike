@@ -23,10 +23,10 @@ public class BallSpawner : MonoBehaviour
         if (rb != null)
         {
             // Calculate the shoot direction based on the shoot angle
-            Vector2 shootDirection = Quaternion.Euler(0, 0, shootAngle) * Vector2.down;
+            Vector2 shootDirection = Quaternion.Euler(0, 0, shootAngle) * Vector2.up;
 
             // Apply the calculated direction and speed to the ball
-            rb.velocity = shootDirection.normalized * shootSpeed;
+            rb.AddForce (shootDirection.normalized * shootSpeed);
         }
         else
         {
