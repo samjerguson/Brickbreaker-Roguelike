@@ -5,12 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Brick
-  - Floor
+  - +2PowerUp
+  - Lost
+  - Ball
+  - x2PowerUp
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Balls
   - Water
   - UI
   - 
@@ -43,12 +46,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Above Player
-    uniqueID: 4104823853
+  - name: Below Player
+    uniqueID: 2196297533
     locked: 0
   - name: Player
     uniqueID: 4205848041
     locked: 0
-  - name: Below Player
-    uniqueID: 2196297533
+  - name: Above Player
+    uniqueID: 4104823853
     locked: 0

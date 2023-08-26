@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: -6617736328001170357}
   - component: {fileID: 3402143685451914657}
   - component: {fileID: -6966702468018665572}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,3 +146,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f44d8d4ce2d5841b8d0b52572ddac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plus2Prefab: {fileID: 2966428670600889002, guid: 3fa10182319bd944d93703dc93bf5f10, type: 3}
+  times2Prefab: {fileID: 2966428670600889002, guid: 584b03a5bdcd5004baba79505c89c143, type: 3}

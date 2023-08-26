@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 offset;
     public Transform player; // Renamed variable name
     public Camera mainCamera;
+    public GameObject ballSpawner;
     public float buffer = 0.1f;
 
     private void OnMouseDown()
